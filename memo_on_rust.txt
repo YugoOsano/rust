@@ -1,0 +1,3 @@
+rust on vim
+https://khanamoto.hatenablog.com/entry/2018/10/03/053702
+
