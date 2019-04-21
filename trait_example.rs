@@ -1,3 +1,4 @@
+// https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/traits.html
 use std::io;
 
 struct Circle {
