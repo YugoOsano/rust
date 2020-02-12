@@ -3,7 +3,7 @@
 // releasing resource (memory) assigned to its components,
 // not only for itself.
 
-use std::fmt;
+use std::fmt;// stands for format
 
 struct Coords {
     x: f64,
@@ -15,7 +15,7 @@ impl Coords {
         Box::new(Coords {x,y})
     }
 }
-
+//-- implementation for fmt's Display trait
 impl fmt::Display for Coords {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         write!(f, "[{:.4}, {:.4}]", self.x, self.y)
