@@ -49,7 +49,17 @@ fn sample_function() {
     // スコープを抜けることで自動で`loc`が破棄され、その中身である`coords`と`name`も自動で破棄される
 }
 
+// Practical Beginning Rust p-280
+#[derive(Debug)]
+struct Parent(usize, Child, Child);
+
+#[derive(Debug)]
+struct Child(usize);
+
 fn main() {
-    sample_function()
+    sample_function();
+    let p1 = Parent(1, Child(11), Child(12));
+
+    println!("(b) p1: {:?}", p1);
 }
 
