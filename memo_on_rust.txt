@@ -6,6 +6,11 @@ curl https://sh.rustup.rs -sSf | sh
 and append path statement to .bashrc:
 export PATH=$PATH:$HOME/.cargo/bin
 
+emacs rust-mode is easily installed by;
+sudo apt install elpa-rust-mode
+http://wikemacs.org/wiki/Rust
+
+
 (removed) https://khanamoto.hatenablog.com/entry/2018/10/03/053702
 
 Third party plugin manager is usually used to manage vim plugins.
